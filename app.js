@@ -24,16 +24,3 @@ app.listen(9000, () => console.log('Listening on port 9000.....'));
 
 
 
-
-
-
-
-/*  const promise = fetch('/https://api.exchangeratesapi.io/latest HTTP/1');
-    promise.then(response => response.json())
-    response.json().then((data) =>
-    {
-        const [currentRatesData] = data;
-        console.log(currentRatesData)
-        
-    });
-*/
