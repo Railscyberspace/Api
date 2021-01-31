@@ -4,7 +4,8 @@
   "description": "Fetching Api",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/SundayAbamjnr/Api/issues"
   },
-  "homepage": "https://github.com/SundayAbamjnr/Api#readme"
+  "homepage": "https://github.com/SundayAbamjnr/Api#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "npm-install-all": "^1.1.21"
+  }
 }
