@@ -17,7 +17,6 @@ app.get('/', (req, res) =>
     return res.send('Home')
 })
 
-        
 app.listen(9000, () => console.log('Listening on port 9000.....'));
     
  
