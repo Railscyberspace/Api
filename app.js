@@ -1,3 +1,4 @@
+const { response } = require('express');
 const express = require('express')
 const fetch = require("node-fetch");
 const app = express()
@@ -15,9 +16,15 @@ app.get('/api/rates', async (req, res) =>
 app.get('/', (req, res) =>
 {
     return res.send('Home')
-})
+   // console.log(response);
+});
 
-app.listen(9000, () => console.log('Listening on port 9000.....'));
+const PORT = process.env.PORT || 9000;
+app.listen(PORT, () =>
+{
+    console.log(`Listening on port 9000.....$(PORT)`);
+
+});
     
  
 
